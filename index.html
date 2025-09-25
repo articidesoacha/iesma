@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENA 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #a2a04b 100%); }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    .pulse-animation { animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+    .slide-in { animation: slideIn 0.8s ease-out; }
+    @keyframes slideIn { from { opacity: 0; transform: translateY(30px);} to { opacity: 1; transform: translateY(0);} }
+  </style>
+</head>
+<body class="gradient-bg min-h-screen p-4 flex flex-col">
+
+  <div class="max-w-6xl mx-auto flex-1">
+
+    <!-- ENCABEZADO -->
+    <header class="bg-gradient-to-r from-green-700 to-green-900 rounded-2xl shadow-2xl mb-8 p-6 flex items-center justify-between">
+      <div class="flex-shrink-0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6pAae1S8mQd_VHFbDD0fJGMf8UmgB1B5sHLA580x2CJTtFGiVYLiEUbCaixL2eNCqs4&usqp=CAU" alt="Logo SENA" class="h-20 md:h-24">
+      </div>
+      <div class="text-center flex-1">
+        <h1 class="text-white text-2xl md:text-4xl font-extrabold leading-tight" style="text-shadow:0 2px 8px rgba(0,0,0,.6)">
+          OFERTA DE PROGRAMAS DE ARTICULACIÓN
+        </h1>
+        <h2 class="text-yellow-300 text-lg md:text-2xl font-semibold mt-2" style="text-shadow:0 2px 6px rgba(0,0,0,.5)">
+          Institución Educativa San Mateo 2026
+        </h2>
+      </div>
+    </header>
+
+    <!-- MENSAJE MOTIVACIONAL -->
+    <div class="bg-white/95 backdrop-blur-sm rounded-2xl p-8 mb-8 text-center shadow-2xl slide-in">
+      <h3 class="text-2xl font-bold text-gray-800 mb-4">¡Tu Futuro Profesional Comienza Aquí!</h3>
+      <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
+        Elige el programa técnico que transformará tu vida y te abrirá las puertas al éxito profesional.
+      </p>
+      <p><span class="font-semibold text-green-700">¡El momento de decidir tu futuro es AHORA!</span></p>
+    </div>
+
+    <!-- PROGRAMAS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+      <!-- Programación de Software -->
+      <a href="https://drive.google.com/file/d/1BVTAfxiYChow8YRs8k4WtzyDpq6s85Vb/view?usp=drive_link" target="_blank" class="bg-white rounded-xl p-6 shadow-lg card-hover slide-in block">
+        <div class="text-5xl mb-4 text-center">💻</div>
+        <h4 class="text-xl font-bold text-gray-800 mb-3 text-center">Programación de Software</h4>
+        <p class="text-gray-600 text-center text-sm">
+          Crea el futuro digital. Desarrolla aplicaciones, sitios web y soluciones tecnológicas innovadoras.
+        </p>
+      </a>
+
+      <!-- Asistencia Administrativa -->
+      <a href="https://drive.google.com/file/d/1w9kderIHDOJgnDIk5E4H4a7XzDGC6YA1/view?usp=sharing" target="_blank" class="bg-white rounded-xl p-6 shadow-lg card-hover slide-in block">
+        <div class="text-5xl mb-4 text-center">📊</div>
+        <h4 class="text-xl font-bold text-gray-800 mb-3 text-center">Asistencia Administrativa</h4>
+        <p class="text-gray-600 text-center text-sm">
+          Lidera procesos empresariales. Gestiona, organiza y optimiza el funcionamiento de las organizaciones.
+        </p>
+      </a>
+
+      <!-- Ejecución de Eventos Deportivos -->
+      <a href="https://drive.google.com/file/d/1iHjlO6CH_SN_rtNntFtGOilN-V9OvUGM/view?usp=drive_link" target="_blank" class="bg-white rounded-xl p-6 shadow-lg card-hover slide-in block">
+        <div class="text-5xl mb-4 text-center">⚽</div>
+        <h4 class="text-xl font-bold text-gray-800 mb-3 text-center">Ejecución de Eventos Deportivos</h4>
+        <p class="text-gray-600 text-center text-sm">
+          Impulsa el deporte y la recreación. Organiza competencias y promueve estilos de vida saludables.
+        </p>
+      </a>
+
+      <!-- Operaciones de Comercio Exterior -->
+      <a href="https://drive.google.com/file/d/1o7ivvzL2dXqsHriAxrI1ARILP84K-eBX/view?usp=drive_link" target="_blank" class="bg-white rounded-xl p-6 shadow-lg card-hover slide-in block">
+        <div class="text-5xl mb-4 text-center">🌍</div>
+        <h4 class="text-xl font-bold text-gray-800 mb-3 text-center">Operaciones de Comercio Exterior</h4>
+        <p class="text-gray-600 text-center text-sm">
+          Conecta mercados globales. Facilita el intercambio comercial internacional y expande fronteras.
+        </p>
+      </a>
+
+      <!-- Recursos Humanos -->
+      <a href="https://drive.google.com/file/d/1Qy-OyW0ztcqU3dlrx-qE0dHmBHfvUVl2/view?usp=drive_link" target="_blank" class="bg-white rounded-xl p-6 shadow-lg card-hover slide-in block">
+        <div class="text-5xl mb-4 text-center">👥</div>
+        <h4 class="text-xl font-bold text-gray-800 mb-3 text-center">Recursos Humanos</h4>
+        <p class="text-gray-600 text-center text-sm">
+          Potencia el talento humano. Desarrolla estrategias para el crecimiento personal y organizacional.
+        </p>
+      </a>
+
+      <!-- Promotoría en Manejo Ambiental -->
+      <a href="https://drive.google.com/file/d/1AVtmRbUNtLbfvQsPzd1Znu1hpc6kIiky/view?usp=drive_link" target="_blank" class="bg-white rounded-xl p-6 shadow-lg card-hover slide-in block">
+        <div class="text-5xl mb-4 text-center">🌱</div>
+        <h4 class="text-xl font-bold text-gray-800 mb-3 text-center">Promotoría en Manejo Ambiental</h4>
+        <p class="text-gray-600 text-center text-sm">
+          Aprende a implementar proyectos sostenibles, gestionar recursos naturales
+          y promover la conciencia ecológica en comunidades y organizaciones.
+        </p>
+      </a>
+    </div>
+
+    <!-- === SECCIÓN PARA DESCARGAR DOCUMENTOS (PAPELES) === -->
+    <section class="bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl p-8 text-center shadow-2xl slide-in mb-10">
+      <div class="text-6xl mb-4 pulse-animation">📋</div>
+      <h3 class="text-2xl font-bold text-white mb-4">¡No esperes más!</h3>
+      <p class="text-lg md:text-xl text-white font-semibold mb-6">
+        Descarga los documentos requeridos para legalizar tu matrícula.
+      </p>
+
+      <!-- BOTÓN DE DESCARGA -->
+      <a
+        href="https://drive.google.com/drive/folders/14Efpb_vox2bf2YhMq_Y1prxsNHO9TUfx?usp=drive_link"
+        target="_blank"
+        class="bg-white text-red-600 font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+      >
+        📥 Descargar documentos
+      </a>
+
+      <!-- LISTA DE DOCUMENTOS -->
+      <div class="mt-6 bg-white/10 p-6 rounded-xl text-white text-sm leading-relaxed">
+        <h4 class="text-lg font-bold mb-2">Documentación requerida</h4>
+        <ol class="list-decimal list-inside space-y-2 max-w-3xl mx-auto text-left">
+          <li>GFPI-F-129: Tratamiento de datos (menor de edad) firmado por aspirante y acudiente con identificación.</li>
+          <li>GFPI-F-015: Compromiso del aprendiz, firmado por aspirante y acudiente.</li>
+          <li>Afiliación a salud o consulta ADRES (expedida en los últimos 60 días). Régimen especial: certificado de la entidad.</li>
+          <li>Fotocopia del documento de identidad del aprendiz (ambas caras, legible, con código de barras).</li>
+          <li>Fotocopia del documento de identidad del acudiente (ambas caras, legible, con código de barras).</li>
+        </ol>
+      </div>
+    </section>
+    <!-- === FIN SECCIÓN DESCARGAS === -->
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-green-900 text-white mt-12 rounded-t-2xl shadow-2xl">
+    <div class="max-w-6xl mx-auto px-6 py-8 text-center">
+      <p class="font-semibold mb-2">Servicio Nacional de Aprendizaje SENA</p>
+      <p class="text-sm mb-4">
+        Centro Industrial y de Desarrollo Empresarial de Soacha - Regional Cundinamarca<br>
+        Dirección: Calle 13 #10 - 63, Zona Centro, Soacha (Cundinamarca)<br>
+        Tel: (601) 7366060 Ext. 18001
+      </p>
+        </footer>
+
+</body>
+</html>
